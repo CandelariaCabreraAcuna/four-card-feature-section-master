@@ -85,6 +85,10 @@ body{
     padding: 3.5rem 14rem;
  }
 
+ .head-text{
+    font-weight: lighter;
+
+ }
  @media(min-width: 800px){
     .container{
     width: 100vw;
@@ -92,5 +96,8 @@ body{
     .container-cards{
         display: flex;
         flex-direction: row;
+    }
+    .container > p{
+        width: 29rem;
     }
  }
